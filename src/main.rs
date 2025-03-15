@@ -58,7 +58,7 @@ impl Application for Editor {
     }
 
     fn title(&self) -> String {
-        String::from("Figduh")
+        String::from("Text Editor - Iced")
     }
 
     fn update(&mut self, message: Self::Message) -> Command<Message> {
